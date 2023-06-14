@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav,
+#navbar,
+.navbar,
+.navbar-inverse {
+    margin-bottom: 0;
+}
+
+
+h1,
+
+h3 {
+    text-align: center;
+
+}
+
+#continente,
+#continente2,
+#continente3,
+#continente4,
+#continente5 {
+    text-align: center;
+    position: sticky;
+    top: 0;
+
+}
+
+
+.grid h1 {
+    background-color: rgb(53, 53, 53);
+    color: #fff;
+    margin-top: 0;
+}
+
+
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25%;
+}
+
+.contenedor__columna {
+    margin: 5px;
+
+}
+
+.fotos .contenedor {
+    display: grid;
+}
+
+
+.navbar-brand,
+.navbar-brand {
+    display: none;
+}
+
+#impar {
+    background-color: rgb(155, 155, 155);
+    border-radius: 5%;
+    padding: 0 10px;
+}
+
+#nombre {
+    text-align: center;
+    font-size: 2.7vh;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        display: none;
+    }
+
+    a,
+    .navbar-brand {
+        display: block;
+    }
+}
+
+
+@media(min-width:520px) {
+    .fotos .contenedor {
+        grid-template-columns: repeat(2, 50%);
+
+    }
+}
+
+
+
+@media(min-width:728px) {
+    .fotos .contenedor {
+        grid-template-columns: repeat(3, 33.3%);
+    }
+
+
+}
+
+@media(min-width:1024px) {
+    .fotos .contenedor {
+
+        grid-template-columns: repeat(4, 25%);
+    }
+
+    .contenedor {
+        width: 1024px;
+    }
+}
+
+
+@media(min-width:1200px) {
+    .contenedor {
+        width: 1200px;
+    }
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: burlywood;
+    align-self: flex-end;
+    width: 100%;
+    padding-left: 2vh;
+    text-align: center;
+}
+
+#tp {
+    margin-bottom: 0;
+}
+
+
+body {
+    background-color: white;
+    text-align: right;
+    margin-top: 100px;
+}
+
+button {
+    height: 60px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    background-color: rgb(155, 155, 155);
+
+}
+
+#javaScript {
+    margin-right: 35px;
+}
+
+button:hover {
+    background: rgb(110, 100, 100);
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: translateY(10px);
+
+}

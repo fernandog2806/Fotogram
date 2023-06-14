@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="js.index.js">
+    <script src="js/index.js" async></script>
+    <title>TP 2: Fotogram</title>
+</head>
+
+<body>
+    <header>
+        <menu>
+
+            <nav class="navbar navbar-inverse" role="navigation" id="navbar">
+                <nav class="navbar navbar-inverse" role="navigation" id="navbar">
+
+
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Desplegar navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand">Fotogram</a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Europa <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#francia">Francia</a></li>
+                                    <li><a href="#españa">España</a></li>
+                                    <li><a href="#alemania">Alemania</a></li>
+                                    <li><a href="#inglaterra">Inglaterra</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    América <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#argentina">Argentina</a></li>
+                                    <li><a href="#brasil">Brasil</a></li>
+                                    <li><a href="#colombia">Colombia</a></li>
+                                    <li><a href="#eeuu">Estados Unidos</a></li>
+
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Oceanía <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#australia">Australia</a></li>
+                                    <li><a href="#nuevaZelanda">Nueva Zelanda</a></li>
+                                    <li><a href="#polinesia">Polinesia Francesa</a></li>
+                                    <li><a href="#fiji">Fiji</a></li>
+
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Asia <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#china">China</a></li>
+                                    <li><a href="#japon">Japón</a></li>
+                                    <li><a href="#india">India</a></li>
+                                    <li><a href="#filipinas">Filipinas</a></li>
+
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    África <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#egipto">Egipto</a></li>
+                                    <li><a href="#marruecos">Marruecos</a></li>
+                                    <li><a href="#sudafrica">Sudáfrica</a></li>
+                                    <li><a href="#caboVerde">Cabo Verde</a></li>
+
+
+                                </ul>
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+                </nav>
+
+
+
+
+        </menu>
+
+    </header>
+
+    <div class="grid grid-4">
+        <h1>Fotogram</h1>
+    </div>
+
+
+    <section class="fotos">
+        <div id="javaScript">
+            <button id='myButton'>Modo Noche</button>
+        </div>
+
+        <div id="continente">
+            <h2>Europa</h2>
+        </div>
+        <h3 id="francia">Francia</h3>
+
+        <div class="contenedor">
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Europa/francia/torre-eiffel.jpg" alt="Imagen de la Torre Eiffel" title="Torre Eiffel">
+                <h5 id="nombre">Torre Eiffel</h5>
+                <p>Construida en dos años, dos meses y cinco días (de 1887 a 1889). Tiene 325 metros de altura con
+                    sus
+                    116 antenas.</p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Europa/francia/arco-del-triunfo.jpg" alt="Imagen del Arco Del Triunfo"
+                    title="Arco del Triunfo">
+                <h5 id="nombre">Arco Del Triunfo</h5>
+                <p>Construido entre 1806 y 1836 por orden de Napoleón Bonaparte para conmemorar la victoria en la
+                    batalla de Austerlitz.</p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Europa/francia/notre-dame.jpg" alt="Imagen de la Catedral de Notre Dame"
+                    title="Catedral de Notre Dame">
+                <h5 id="nombre">Catedral de Notre Dame</h5>
+                <p>Construcida entre 1163 y 1345, la catedral sufrió un incendio que se inició en la tarde del 15 de
+                    abril de 2019 en el tejado del edificio y ocasionó daños considerables.</p>
+            </article>
+
+
+            <article class="contenedor__columna">
+                <img src="img/Europa/francia/Museo-del-Louvre.jpg" alt="Imagen del Museo del Louvre"
+                    title="Museo del Louvre">
+                <h5 id="nombre">Museo del Louvre</h5>
+                <p>Creación: 10 de agosto de 1793, inauguración: 8 de noviembre de 1793, el Louvre muestra obras de
+                    arte
+                    anteriores a 1848, ordenadas de forma cronológicas.</p>
+            </article>
+
+
+        </div>
+
+
+        <h3 id="españa">España</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Europa/españa/sagrada-familia.jpg" alt="Imagen de la Sagrada Familia"
+                    title="Sagrada Familia">
+                <h5 id="nombre">Sagrada Familia</h5>
+                <p>Se iniciaron las construcciones el 19 de marzo de 1882, todavía en construcción. Es la obra
+                    maestra
+                    de Gaudí y máximo exponente de la arquitectura modernista catalana.</p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Europa/españa/acueducto-segovia.jpg" alt="Imagen del Acueducto Segovia"
+                    title="Acueducto Segovia">
+                <h5 id="nombre">Acueducto Segovia</h5>
+                <p>Su construcción data de principios del siglo ii d. C., a finales del reinado del emperador
+                    Trajano o
+                    principios del de Adriano, llevaba aguas a la ciudad española de Segovia
+                    hasta 1973.</p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Europa/españa/basilica-del-pilar.jpg" alt="Imagen de la Basilica del Pilar"
+                    title="Basilica del Pilar">
+                <h5 id="nombre">Basilica del Pilar</h5>
+                <p>Construcción: Hasta el siglo xiii, iglesia románica. 1293-1515, nueva iglesia
+                    gótico-mudéjar. 1754-1765, reforma capilla. 1866-1872, cúpulas centrales. 1903-1907, segunda
+                    torre.
+                    1950-1961, torres norte.</p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Europa/españa/Catedral-de-Santiago-de-Compostela.jpg"
+                    alt="Imagen de la Catedral de Santiago de Compostela" title="Catedral de Santiago de Compostela">
+                <h5 id="nombre">Catedral Santiago de Compostela</h5>
+                <p>Construida entre los años 1075 y 1211, Según la tradición, el Apóstol Santiago el Mayor difundió
+                    el
+                    cristianismo en la península ibérica.</p>
+            </article>
+
+        </div>
+
+
+        <h3 id="alemania">Alemania</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Europa/alemania/castillo-shwerin.jpg" alt="Imagen del Castillo Swerin"
+                    title="Castillo Swerin">
+                <h5 id="nombre">Castillo Swerin</h5>
+                <p>El palacio de Schwerin está situado en la ciudad de Schwerin, (capital del estado federado de
+                    Mecklemburgo-Pomerania Occidental), Alemania. Actualmente es la sede del Parlamento Regional de
+                    Mecklemburgo-Pomerania Occidental.</p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Europa/alemania/puerta-de-brandeburgo.jpg" alt="Imagen de la puerta de Brandeburgo"
+                    title="Puerta de Brandeburgo">
+                <h5 id="nombre">Puerta de Bradenburgo</h5>
+                <p>Construida entre los años 1788 y 1791, durante el reinado de Federico Guillermo II de Prusia por
+                    Carl
+                    Gotthard Langhans, es una antigua puerta de entrada a Berlín y uno de los
+                    principales símbolos tanto de la ciudad como de Alemania.</p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Europa/alemania/Reichstag.jpg" alt="Imagen del Reichstag" title="Reichstag">
+                <h5 id="nombre">Reichstag</h5>
+                <p>Se encuentra en el barrio del Tiergarten, en el distrito Mitte de Berlín, capital de Alemania.
+                    Fue la
+                    sede del Reichstag en tiempos del II Imperio alemán (1871-1918) </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Europa/alemania/Centro-histórico-Heidelberg.jpg"
+                    alt="Imagen del Centro Histórico de Heidelberg" title="Centro Histórico de Heidelberg">
+                <h5 id="nombre">Centro Histórico de Heidelberg</h5>
+                <p>El centro histórico de Heidelberg está bien conservado y consiste principalmente en una gran zona
+                    peatonal
+                    en donde se encuentran varias iglesias, como la Heiliggeistkirche («iglesia del Espíritu
+                    Santo»), y
+                    muchos
+                    edificios de estilo barroco.</p>
+            </article>
+
+        </div>
+
+        <h3 id="inglaterra">Inglaterra</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Europa/inglaterra/big-ben.jpg" alt="Imagen del Big Ben" title="Big Ben">
+                <h5 id="nombre">Big Ben</h5>
+                <p>Construido entre los años 1843 y 1859, tiene una altura de 96,2 m. La torre está asentada sobre
+                    una
+                    base de hormigón de 15 metros de lado y tres metros de espesor, con una profundidad de cuatro
+                    metros
+                    bajo el nivel del suelo.</p>
+            </article>
+
+
+            <article class="contenedor__columna">
+                <img src="img/Europa/inglaterra/ojo-de-londres.jpg" alt="Imagen del Ojo de Londres"
+                    title="Ojo de Londres">
+                <h5 id="nombre">Ojo de Londres</h5>
+                <p> Construido entre 1998 y 2000. El Ojo de Londres alta de Europa y la atracción turística más
+                    popular
+                    del Reino Unido con más de 3,75 millones de visitantes al año.</p>
+            </article>
+
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Europa/inglaterra/palacio-buckingham.jpg" alt="Imagen del Palacio Buckingham"
+                    title="Palacio Buckingham">
+                <h5 id="nombre">Palacio de Buckingham</h5>
+                <p> Construido entre 1703 y 1705. El palacio de Buckingham es la residencia oficial del monarca
+                    británico en Londres. También se utiliza para ceremonias oficiales, visitas de Estado y visitas
+                    turísticas.</p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Europa/inglaterra/puente-de-la-torre-jpg.jpg" alt="Imagen del puente de la Torre"
+                    title="Puente de la Torre">
+                <h5 id="nombre">Puente de la Torre</h5>
+                <p>El Puente de la Torre, es un puente basculante y colgante de Londres,
+                    construido entre 1886 y 1894, que cruza el río Támesis cerca de la Torre de Londres y se ha
+                    convertido en uno de los símbolos de la ciudad. Por esto, el Puente de la Torre es confundido a
+                    veces con el Puente de Londres, situado unos ochocientos metros río arriba.</p>
+            </article>
+
+        </div>
+
+    </section>
+    <section class="fotos">
+
+        <div id="continente2">
+            <h2>América</h2>
+        </div>
+        <h3 id="argentina">Argentina</h3>
+
+        <div class="contenedor">
+
+            <article class="contenedor__columna" id="impar">
+
+                <img src="img/America/argentina/obelisco.jpg" alt="Imagen del Obelisco de Bs As"
+                    title="Obelisco de Bs As">
+                <h5 id="nombre">Obelisco</h5>
+                <p>
+                    El Obelisco de Buenos Aires es un monumento histórico considerado un ícono de la Ciudad Autónoma de
+                    Buenos Aires, la capital de Argentina. Fue construido en 1936 con motivo del cuarto centenario de la
+                    llamada primera fundación de Buenos Aires por Pedro de Mendoza.</p>
+
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/America/argentina/monumento-bandera.jpg" alt="Imagen del Monumento a la Bandera"
+                    title="Monumento de Bandera">
+                <h5 id="nombre">Monumento de Bandera</h5>
+                <p>El Monumento a la Bandera es una construcción símbolo de la ciudad de Rosario, en
+                    la República Argentina. Está asentado en el parque nacional a la Bandera, en el lugar donde el
+                    general Manuel Belgrano enarboló por primera vez la Bandera de Argentina, a orillas del río Paraná.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/America/argentina/teatro-colon.jpg" alt="Imagen del Teatro Colón" title="Teatro Colón">
+                <h5 id="nombre">Teatro Colón</h5>
+                <p>Construido entre 1888 y 1908. El teatro Colón es un teatro de ópera de la Ciudad Autónoma de Buenos
+                    Aires, la capital de Argentina. Por su tamaño, acústica y trayectoria, ha llegado a ser
+                    considerado como uno de los mejores teatros líricos del mundo.</p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/America/argentina/cataratas-iguazu.jpg" alt="Imagen de las Cataratas del Iguazú"
+                    title="Cataratas del Iguazú">
+                <h5 id="nombre">Cataratas del Iguazú</h5>
+                <p>Las cataratas del Iguazú, llamadas popularmente en Argentina como
+                    «Cataratas» o «Cataratas del Iguazú», son un conjunto de cataratas que se localizan sobre el río
+                    Iguazú, en el límite entre la provincia argentina de Misiones, el estado brasileño de Paraná y el
+                    Departamento paraguayo de CDE.</p>
+            </article>
+
+        </div>
+
+
+        <h3 id="brasil">Brasil</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/America/brasil/cristo-redentor.jpg" alt="Imagen del Cristo Redentor"
+                    title="Cristo Redentor">
+                <h5 id="nombre">Cristo Redentor</h5>
+                <p>El Cristo Redentor es una estatua art déco de Jesús de Nazaret, con los brazos
+                    abiertos, mostrando a la ciudad de Río de Janeiro, Brasil. La estatua tiene una altura de treinta
+                    metros sobre un pedestal de ocho metros. Este monumento fue inaugurado el 12 de octubre de 1931
+                    después de aproximadamente 5 años de construcción. Es la tercera estatua de Jesús de Nazaret más
+                    grande del mundo.</p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/America/brasil/pan-azucar.jpg" alt="Imagen del Pan De Azucar Brasil"
+                    title="Pan de Azucar (Brasil)">
+                <h5 id="nombre">Pan de Azucar</h5>
+                <p>El Pan de Azúcar (en portugués, es un peñasco situado en Río de Janeiro, Brasil, en la
+                    boca de la bahía de Guanabara sobre una península que sobresale en el océano
+                    Atlántico. Geomorfológicamente, corresponde a un domo muy erosionado, compuesto de un monolito de
+                    granito y cuarzo que data del Cenozoico. Tiene 396 metros de altitud sobre el nivel del
+                    mar.</p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/America/brasil/buzios.jpg" alt="Imagen de camino de madera por la costa de Buzios"
+                    title="Costa de Buzios">
+                <h5 id="nombre">Buzios</h5>
+                <p> Búzios es una ciudad brasileña situada en el Estado de Río de Janeiro, en la costa brasileña, a
+                    174,1 kilómetros al este de Río de Janeiro. Esta antigua aldea de pescadores hoy es un destino
+                    turístico que atrae cada año a turistas en busca de sus playas y vida nocturna. Su población es de
+                    30 4393 habitantes y su área de 69 km². Está localizada en una península de 8 km de extensión con 26
+                    playas.</p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/America/brasil/florianopolis.jpg" alt="Imagen de edificios en Florianopolis"
+                    title="Florianopolis">
+                <h5 id="nombre">Florianopolis</h5>
+                <p>Florianópolis es la capital del estado de Santa Catarina, en la región Sur de Brasil, nombrada así en
+                    homenaje al expresidente Floriano Peixoto. La ciudad es conocida ya que sus habitantes tienen una
+                    alta calidad de vida.</p>
+            </article>
+
+        </div>
+
+
+        <h3 id="colombia">Colombia</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/America/colombia/san-andres.jpg" alt="Imagen de la playa de San Andres"
+                    title="Playa de San Andres">
+                <h5 id="nombre">Isla de San Andres</h5>
+                <p>La Isla de San Andrés es una isla colombiana del mar Caribe.
+                    Es la más grande de las islas que forman parte del Archipiélago de San Andrés, Providencia y Santa
+                    Catalina, con una extensión total de 26 km² siendo así, la isla más grande del país. </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/America/colombia/parque-tayrona.jpg" alt="Imagen de la playa de Parque Tayrona"
+                    title="Playa de Parque Tayrona">
+                <h5 id="nombre">Parque Tayrona</h5>
+                <p>El parque nacional natural Tayrona se encuentra ubicado en las estribaciones de la Sierra Nevada de
+                    Santa Marta en el Caribe de Colombia. Su superficie hace parte de la ciudad de Santa Marta. </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/America/colombia/Cabo-de-la-Vela.jpg" alt="Imagen de la playa de Cabo de la Vela"
+                    title="Playa de Cabo de la Vela">
+                <h5 id="nombre">Cabo de la playa de Cabo de la Vela</h5>
+                <p>Este cabo, ubicado en la península de La Guajira, es un terreno desértico habitado en su mayor parte
+                    por el pueblo indígena wayú, que llama al lugar con el nombre de Jepirra, que en su cosmogonía es el
+                    espacio sagrado donde los espíritus de sus difuntos llegan para hacer su tránsito hacia «lo
+                    desconocido».</p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/America/colombia/palomino.jpg" alt="Imagen de la playa de Palomino"
+                    title="Playa de Palomino">
+                <h5 id="nombre">Palomino</h5>
+                <p>Palomino es uno de los cinco corregimientos del municipio de Dibulla, perteneciente a La Guajira,
+                    Colombia. Lleva este nombre por el rio adyacente. </p>
+            </article>
+
+        </div>
+
+        <h3 id="eeuu">Estados Unidos</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/America/eeuu/estatua-libertad.jpg" alt="Imagen de la Estatua de la Libertad"
+                    title="Estatua de la Libertad">
+                <h5 id="nombre">Estatua de la Libertad</h5>
+                <p>Desde su inauguración en 1886, la estatua fue la primera visión que tenían los inmigrantes europeos
+                    al llegar a Estados Unidos tras su travesía por el océano Atlántico.</p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/America/eeuu/monumento-washington.jpg" alt="Imagen del obelisco, Monumento Washington"
+                    title="Obelisco, Monumento a Washington">
+                <h5 id="nombre">Obelisco, Monumento a Washington</h5>
+                <p>Es un monumento conmemorativo al primer presidente de los Estados Unidos y líder del revolucionario
+                    Ejército Continental, George Washington, que ganó la independencia del país luchando frente a los
+                    británicos en la Guerra de la Independencia.</p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/America/eeuu/monte-rushmore.jpg" alt="Imagen de las cabezas del Monte Rushmore"
+                    title="Monte Rushmore">
+                <h5 id="nombre">Monte Rushmore</h5>
+                <p>Entre 1927 y el 31 de octubre de 1941, Gutzon Borglum y 400 trabajadores tallaron los bustos
+                    colosales de 18 metros de los presidentes estadounidenses George Washington, Thomas Jefferson,
+                    Theodore Roosevelt y Abraham Lincoln que representan los primeros 150 años de la historia de los
+                    Estados Unidos.</p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/America/eeuu/las-vegas.jpg" alt="Imagen de la ciudad de Las Vegas de noche"
+                    title="Las Vegas">
+                <h5 id="nombre">Las Vegas</h5>
+                <p>Las Vegas es la ciudad más grande del estado de Nevada, en Estados Unidos. Es uno de los principales
+                    destinos turísticos del país debido a sus hoteles y zonas comerciales y vacacionales, pero sobre
+                    todo gracias a sus casinos. Debido a ello es conocida como «La Capital del Entretenimiento Mundial».
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+    <section class="fotos">
+
+        <div id="continente3">
+            <h2>Oceanía</h2>
+        </div>
+
+        <h3 id="australia">Australia</h3>
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Oceania/australia/ayers-rock.jpg" alt="Imagen de Ayers Rock" title="Ayers Rock">
+                <h5 id="nombre">Ayers Rock</h5>
+                <p>Es una formación rocosa compuesta por arenisca que se encuentra en el centro de Australia, en el
+                    Territorio del Norte, a 460 km al suroeste de Alice Springs, dentro del Uluru-Kata Tjuta National
+                    Park.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Oceania/australia/golden-coast.jpg" alt="Imagen de Golden Coast" title="Golden Coast">
+                <h5 id="nombre">Golden Coast</h5>
+                <p>Hoy en día, Gold Coast es un importante destino turístico con su soleado clima subtropical y se ha
+                    hecho muy conocido por sus playas, su perfil alto dominado, parques temáticos, vida nocturna, y
+                    selva tropical.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Oceania/australia/Great-dividing-range.jpg" alt="Imagen de Great Dividing Range"
+                    title="Great Dividing Range">
+                <h5 id="nombre">Great Dividing Range</h5>
+                <p>La Gran Cordillera Divisoria es, con 3.500 km, la tercera cadena montañosa terrestre más larga del
+                    mundo . Comienza en el norte de Queensland, pasa por el centro de Nueva Gales del Sur y termina en
+                    Victoria.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Oceania/australia/opera-sydney.jpg" alt="Imagen del teatro de Opera de Sydney"
+                    title="Opera Sydney">
+                <h5 id="nombre">Teatro Opera de Sydney</h5>
+                <p>La Ópera de Sídney, situada en la ciudad de Sídney, estado de Nueva Gales del Sur, Australia, es uno
+                    de los edificios más famosos y distintivos del siglo XX. Declarado en 2007 Patrimonio de la
+                    Humanidad.
+                </p>
+            </article>
+
+        </div>
+
+
+        <h3 id="nuevaZelanda">Nueva Zelanda</h3>
+
+        <div class="contenedor">
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Oceania/nuevaZelanda/lago-pukaki.jpg" alt="Imagen del Lago Pukaki" title="Lago Pukaki">
+                <h5 id="nombre">Lago Pukaki</h5>
+                <p>El lago Pukaki es el más grande de los tres lagos alpinos aproximadamente paralelos que corren de
+                    norte a sur a lo largo del borde norte de la cuenca Mackenzie en la Isla Sur de Nueva Zelanda. Los
+                    otros son los lagos Tekapo y Ohau.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Oceania/nuevaZelanda/Monte-aoraki.jpg" alt="Imagen del Monte Aoraki" title="Monte Aoraki">
+                <h5 id="nombre">Monte Aoraki</h5>
+                <p>El Monte Aoraki es la montaña más alta de Nueva Zelanda, con una elevación de 3764 m.s.n.m. Es un
+                    pico de los Alpes Neozelandeses, una cadena montañosa que recorre toda la costa occidental de la
+                    Isla Sur de Nueva Zelanda. Varios glaciares, como el Tasman y Hooker, cuelgan de sus laderas.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Oceania/nuevaZelanda/parque-tongariro.jpg" alt="Imagen del Parque Tongariro"
+                    title="Parque Tongariro">
+                <h5 id="nombre">Monte Tongariro</h5>
+                <p>El monte Tongariro es un volcán activo en Nueva Zelanda. Está situado en la zona volcánica de Taupo
+                    de la isla Norte, 20 km al sudoeste del lago Taupo y dentro del parque nacional de Tongariro, siendo
+                    el más norteño de los tres volcanes que dominan el centro del parque.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Oceania/nuevaZelanda/Wai-o-Tapu.jpg" alt="Imagen de Wai-o-Tapu" title="Wai-O-Tapu">
+                <h5 id="nombre">Wai-O-Tapu</h5>
+                <p>Wai-O-Tapu es una zona activa geotermal situada al norte de la caldera Reproroa en la zona volcánica
+                    de Taupo, Waikato, en Nueva Zelanda. La región comprende una extensión de ocho kilómetros en la que
+                    predominan cráteres colapsados, piscinas de agua y lodo y fumarolas.
+                </p>
+            </article>
+
+        </div>
+
+
+        <h3 id="polinesia">Polinesia Francesa</h3>
+
+        <div class="contenedor">
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Oceania/polinesia/Avea-beach.jpg" alt="Imagen de la playa de Avea" title="Playa de Avea">
+                <h5 id="nombre">Playa Avea</h5>
+                <p>La Playa Avea se encuentra en una zona protegida del viento que crea un oasis
+                    perfecto para la natación. Aquí la arena inmaculada es bañada por un mar cristalino y cálido,
+                    también adecuado para los niños. Se puede hacer snorkel, o disfrutar del sol y la tranquilidad
+                    en un perfecto escenario tropical.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Oceania/polinesia/bora-bora.jpg" alt="Imagen de la playa de Bora Bora"
+                    title="Playa de Bora Bora">
+                <h5 id="nombre">Bora bora</h5>
+                <p>Bora Bora es una pequeña isla del Pacífico Sur al noroeste de Tahití en la Polinesia Francesa.
+                    Rodeada de motus (islotes) con orillas de arena y una laguna turquesa protegida por un arrecife de
+                    coral, es conocida por el buceo. También es un popular complejo turístico lujoso donde algunos
+                    bungalós se ubican sobre pilotes en el agua.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Oceania/polinesia/playa-termae-jpg.jpg" alt="Imagen de la playa Termae"
+                    title="Playa Termae">
+                <h5 id="nombre">Playa Termae</h5>
+                <p>Hace 5.000 años, los habitantes de la costa del sur de la actual China, hablantes de lenguas
+                    formosanas, cultivadores de mijo y arroz, empezaron a cruzar el Estrecho para instalarse en la isla
+                    de Taiwán. Alrededor del segundo milenio a. C. se produjeron migraciones desde Taiwán a Filipinas.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Oceania/polinesia/Punaauia.jpg" alt="Imagen de la playa de Punaauia"
+                    title="Playa de Punaauia">
+                <h5 id="nombre">Punaauia</h5>
+                <p>Punaauia es una comuna francesa situada en la subdivisión de Islas de Barlovento, que forma parte de
+                    la colectividad de ultramar de Polinesia Francesa. Esta ciudad residencial litoral dispone de
+                    complejos hoteleros, una marina así como de zonas de actividades industriales y comerciales de
+                    tamaño considerable para la isla.
+                </p>
+            </article>
+
+        </div>
+
+        <h3 id="fiji">Fiji</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Oceania/fiji/lautoka.jpg" alt="Imagen de la playa de Lautoka" title="Playa de Lautoka">
+                <h5 id="nombre">Lautoka</h5>
+                <p>Lautoka es la segunda ciudad más poblada de Fiyi. Está situada al oeste de la isla de Viti Levu, a 24
+                    kilómetros al norte de Nadi, y es el segundo mayor puerto de Fiyi, después de Suva. El nombre de la
+                    ciudad se deriva de dos palabras fiyianas que significan "golpe de lanza".
+                </p>
+
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Oceania/fiji/Vanua-levu.jpg" alt="Imagen de la playa de Vanua-levu"
+                    title="Playa de Vanua Levu">
+                <h5 id="nombre">Vanua Levu</h5>
+                <p>La isla es volcánica, con una cadena de montes en el centro que también atraviesa Viti Levu, el cual
+                    divide el país de dos zonas geográficas de clima distinto. En Vanua Levu las montañas superan los
+                    1000 m.s.n.m.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Oceania/fiji/Viti-levu.jpg" alt="Imagen de la playa de Viti Levu"
+                    title="Playa de Viti Levu">
+                <h5 id="nombre">Viti Levu</h5>
+                <p>Viti Levu cubre 10 338 km², que en términos de superficie es similar a Líbano o Puerto Rico. La isla
+                    se extiende 146 km de norte a sur y 106 km de este a oeste. Es una isla de origen volcánico
+                    que alcanza su máxima altitud de 1.324 m.s.n.m. en el Tomanivi.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Oceania/fiji/yasawa.jpg" alt="Imagen de la playa de Yasawa" title="Playa de Yasawa">
+                <h5 id="nombre">Yasawa</h5>
+                <p>Las islas Yasawa son un archipiélago formado por 20 islas volcánicas en la División Oeste de Fiyi,
+                    con un área total de 135 kilómetros cuadrados.. El grupo volcánico de Yasawa consiste en seis islas
+                    principales además de numerosas y pequeñas isletas. El archipiélago, es de origen volcánico y es muy
+                    montañoso, habiendo picos que miden entre 250 y 600 metros de altura.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="fotos">
+        <div id="continente4">
+            <h2>Asia</h2>
+        </div>
+
+        <h3 id="china">China</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Asia/china/jardin-yuyuan.jpg" alt="Imagen del Jardín Yuyuan" title="Jardín Yuyuan">
+                <h5 id="nombre">Jardín Yuyuan</h5>
+                <p>Fue diseñado durante la dinastía Ming, entre los años 1559 y 1577. Un funcionario, de nombre Pan
+                    Yunduan, decidió construirlo a imagen y semejanza de los jardines imperiales. El funcionario quería
+                    que sus padres, que no podían trasladarse a la capital ya que eran demasiado mayores para viajar,
+                    pudieran ver que aspecto tenía un jardín de este estilo.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Asia/china/muralla.jpg" alt="Imagen de la Muralla China" title="Muralla China">
+                <h5 id="nombre">Muralla China</h5>
+                <p>La Gran Muralla China es una antigua fortificación china, construida y reconstruida entre el siglo V
+                    a. C. y el siglo XVI para proteger la frontera norte del Imperio chino durante las sucesivas
+                    dinastías imperiales de los ataques de los nómadas xiongnu de Mongolia y Manchuria. La Gran Muralla
+                    en Jinshanling.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Asia/china/Templo-del-cielo.jpg" alt="Imagen del Templo del Cielo"
+                    title="Templo del Cielo">
+                <h5 id="nombre">Templo del Cielo</h5>
+                <p>Es el mayor templo de su clase en toda la República Popular de China. Fue construido en el año 1420 y
+                    tanto la dinastía Ming como la Qing lo utilizaron para adorar por las cosechas (en primavera) y dar
+                    las gracias al cielo por los frutos obtenidos (otoño). Desde el año 1998 está considerado como
+                    Patrimonio de la Humanidad por la Unesco.
+                </p>
+            </article>
+            <article class="contenedor__columna">
+                <img src="img/Asia/china/Yangshuo.jpg" alt="Imagen de la Yangshuo" title="Yangshuo">
+                <h5 id="nombre">Yangshuo</h5>
+                <p>Es una ciudad en la parte intermedia en la jurisdicción de Suzhou, ubicada en la parte sudeste de la
+                    provincia de Jiangsu sobre el delta del Río Yangzi. Debido al clima moderado y al terreno, allí se
+                    lleva a cabo la agricultura con métodos antiguos, de ahí su nombre.
+                </p>
+            </article>
+
+        </div>
+
+
+        <h3 id="japon">Japón</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Asia/japon/Monte-fuji.jpg" alt="Imagen del Monte Fuji" title="Monte Fuji">
+                <h5 id="nombre">Monte Fuji</h5>
+                <p>Es el pico más alto de la isla de Honshu y de todo Japón, con 4 kilómetros de altitud. Se encuentra
+                    entre las prefecturas de Shizuoka y Yamanashi en el Japón central y justo al oeste de Tokio, desde
+                    donde se puede observar en un día despejado. El Fuji es un estratovolcán y es el símbolo de Japón.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Asia/japon/Monte-yoshino.jpg" alt="Imagen del Monte Yoshino" title="Monte Yoshino">
+                <h5 id="nombre">Monte Yoshino</h5>
+                <p>Es una montaña ubicada en el pueblo de Yoshino en el distrito de Yoshino en la prefectura de Nara,
+                    Japón. En 2004 se convirtió en parte del Patrimonio de la Humanidad de la Unesco junto al resto del
+                    conjunto denominado Sitios sagrados y rutas de peregrinación de los Montes Kii.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Asia/japon/Shirakawa-go.jpg" alt="Imagen de la localidad de Shirakawa-Go"
+                    title="Shirakawa-go">
+                <h5 id="nombre">Shirakawa-Go</h5>
+                <p>Es una villa localizada en la prefectura de Gifu, Japón. En octubre de 2019 tenía una población
+                    estimada de 1.520 habitantes y una densidad de población de 4,26 personas por km². Su área total es
+                    de 356,64 km².
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Asia/japon/tokio.jpg" alt="Imagen de la ciudad de Tokio de noche" title="Ciudad de Tokio">
+                <h5 id="nombre">Tokio</h5>
+                <p>Ubicada en el centro este de la isla de Honshu, concretamente en la región de Kantō. Es actualmente
+                    la ciudad más poblada del mundo, en conjunto es una de las 47 prefecturas de Japón. Es el centro de
+                    la política, economía, educación, comunicación y cultura del país.
+                </p>
+            </article>
+
+        </div>
+
+
+        <h3 id="india">India</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Asia/india/Taj-Mahal.jpg" alt="Imagen del Taj-Mahal" title="Taj-Mahal">
+                <h5 id="nombre">Taj-Mahal</h5>
+                <p>Es un monumento funerario construido entre 1632 y 1648 en la ciudad de Agra, estado de Uttar Pradesh
+                    (India), a orillas del río Yamuna, por el emperador musulmán Shah Jahan de la dinastía mogol.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Asia/india/Mandu-Madhya-Pradesh.jpg" alt="Imagen de Mandu Madhya Pradesh"
+                    title="Mandu Madhya Pradesh">
+                <h5 id="nombre">Mandu Madhya Pradesh</h5>
+                <p>Es una ciudad antigua en el área actual de Mandav del distrito de Dhar. Está ubicado en la región de
+                    Malwa y Nimar en el oeste de Madhya Pradesh, India, a 35 km de la ciudad de Dhar. En el siglo XI,
+                    Mandu era la subdivisión del reino Tarangagadh o Taranga.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Asia/india/templo-del-sol.jpg" alt="Imagen del Templo del Sol" title="Templo del Sol">
+                <h5 id="nombre">Templo del Sol</h5>
+                <p>Es un templo hindú situado en la localidad de Konark, en el estado de Orisa. Dedicado a Suria, dios
+                    del Sol, es uno de los edificios más importantes del país por su arquitectura y los bajorrelieves
+                    que decoran sus muros, de temática fundamentalmente erótica.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Asia/india/cueva-ajanta.jpg" alt="Imagen de cueva en Ajanta" title="Cueva en Ajanta">
+                <h5 id="nombre">Ajanta</h5>
+                <p>Es el nombre de una localidad de la India en el distrito de Aurangabad, estado federado de
+                    Maharashtra, tal localidad es célebre mundialmente por sus 29 grutas artificiales pintadas y
+                    esculpidas inicialmente para el culto budista a partir del siglo II a. C.
+                </p>
+            </article>
+
+        </div>
+
+        <h3 id="filipinas">Filipinas</h3>
+
+        <div class="contenedor">
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Asia/filipinas/boracay.jpg" alt="Imagen de la playa de Boracay" title="Playa de Boracay">
+                <h5 id="nombre">Boracay</h5>
+                <p>Es conocida por sus centros turísticos y playas. A lo largo de la costa oeste, la Playa Blanca está
+                    bordeada de palmas, bares y restaurantes. En la costa este, los fuertes vientos hacen que la playa
+                    Bulabog sea un centro de deportes acuáticos. Cerca está el mirador de Monte Luho, con vista
+                    panorámica de la isla. En el litoral, hay arrecifes de coral y naufragios que albergan una fauna
+                    marina diversa.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Asia/filipinas/coron.jpg" alt="Imagen de la playa de Coron" title="Playa de Coron">
+                <h5 id="nombre">Coron</h5>
+                <p>Es un municipio de primera categoría perteneciente a la provincia de Palawan en Mimaropa,
+                    Región IV-B de Filipinas. De acuerdo con el censo de 2000, tiene una población de 32 243 habitantes
+                    en 6264 casas.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/Asia/filipinas/el-nido.jpg" alt="Imagen de la playa de 'El Nido'"
+                    title="Playa de 'El Nido'">
+                <h5 id="nombre">El Nido</h5>
+                <p>El nombre de El Nido viene por los
+                    anidamientos realizados por un ave llamada salangana. Las rocas kársticas, de este archipiélago, es
+                    un lugar idóneo para tal fin, se encuentra 238 kilómetros al noreste de Puerto Princesa, capital
+                    provincial. Su término ocupa el extremo meridional de isla Palawan.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/Asia/filipinas/puerto-galera.jpg" alt="Imagen de la playa de Puerto Galera"
+                    title="Playa de Puerto Galera">
+                <h5 id="nombre">Puerto Galera</h5>
+                <p>Es un municipio de la provincia de Mindoro Oriental en Filipinas. Según el censo del 2000, tiene
+                    21,925 habitantes. El 13 de junio de 1950, la provincia de Mindoro se divide en dos porciones:
+                    Oriental y Occidental La provincia Oriental comprendía los siguientes once municipios: Baco,
+                    Bongabón, Bulalacao, Calapan, Mansalay, Naujan, Pinamalayan, Pola, Puerto Galera, Roxas, y San
+                    Teodoro.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+    <section class="fotos">
+
+        <div id="continente5">
+
+            <h2>África</h2>
+        </div>
+        <h3 id="egipto">Egipto</h3>
+
+        <div class="contenedor">
+
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/africa/egipto/alejandria.jpg" alt="Imagen de la ciudad de Alejandría"
+                    title="Ciudad de Alejandría">
+                <h5 id="nombre">Alejandría</h5>
+                <p>Es una ciudad portuaria mediterránea de Egipto. Durante el período helenístico, fue el hogar de un
+                    faro que se incluye entre las Siete maravillas del mundo antiguo, junto con una importante
+                    biblioteca. La Biblioteca de Alejandría actual tiene forma de disco y es extremadamente moderna. La
+                    ciudad también tiene hitos grecorromanos, cafés del mundo antiguo y playas. En la actualidad, la
+                    Ciudadela de Qaitbay del siglo XV en el paseo costero es un museo.
+                </p>
+
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/africa/egipto/el-cairo.jpg" alt="Imagen de la ciudad de 'El Cairo'"
+                    title="Ciudad de 'El Cairo'">
+                <h5 id="nombre">El Cairo</h5>
+                <p>La extensa capital de Egipto, se ubica en el río Nilo. En su centro, se encuentra la plaza Tahrir y
+                    el vasto Museo Egipcio, un tesoro de antigüedades que incluye momias reales y artefactos bañados en
+                    oro del faraón Tutankamón. Cerca se encuentra Guiza, sitio de las icónicas pirámides y la Gran
+                    Esfinge, que data del siglo XXVI a. C. En el frondoso distrito Zamalek de la isla Gezira, la Torre
+                    de El Cairo, de 187 m de altura, tiene vistas panorámicas de la ciudad.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/africa/egipto/guiza.jpg" alt="Imagen de las piramides de Guiza"
+                    title="Piramides de Guiza">
+                <h5 id="nombre">Guiza</h5>
+                <p>Es una ciudad egipcia que queda al oeste del Nilo, cerca de El Cairo. La meseta de Guiza alberga
+                    monumentos egipcios emblemáticos, que incluyen tres altas pirámides que se construyeron como
+                    mausoleos reales cerca del siglo XXVI a. C. La Gran Pirámide, de mayor tamaño, es la tumba del rey
+                    Keops. La Gran Esfinge es una imponente escultura de la cabeza de un hombre en el cuerpo de un león.
+                    El Museo del Bote Solar exhibe una embarcación de cedro restaurada, que se encontró cerca de la Gran
+                    Pirámide.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/africa/egipto/sharm-El-Sheij.jpg" alt="Imagen de la costa de Sharm El-Sheij"
+                    title="Costa de Sharm El-Sheij">
+                <h5 id="nombre">Sharm El-Sheij</h5>
+                <p>Es una ciudad balneario egipcia entre el desierto de la península de Sinaí y el mar Rojo. Es conocida
+                    por sus playas de arena protegidas, las aguas claras y los arrecifes de coral. La bahía de Naama,
+                    con paseos costeros bordeados de palmeras, está llena de bares y restaurantes. El Parque Nacional
+                    Ras Muhammad es un importante destino para el buceo, con fauna marina en torno a los arrecifes Shark
+                    y Yolanda y el naufragio del Thistlegorm.
+                </p>
+            </article>
+
+        </div>
+
+
+        <h3 id="marruecos">Marruecos</h3>
+
+        <div class="contenedor">
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/africa/marruecos/agadir.jpg" alt="Imagen de la ciudad de Agadir" title="Ciudad de Agadir">
+                <h5 id="nombre">Agadir</h5>
+                <p>Es una ciudad de la costa del Atlántico en el sur de Marruecos ubicada en las laderas de las montañas
+                    Anti-Atlas, en la capital de la provincia Agadir-Ida Ou Tanane. Es un balneario con campos de golf,
+                    amplia playa de media luna y un paseo costero con cafés, restaurantes y bares. La kasbah sobre la
+                    colina de Agadir resultó destruida en un terremoto en 1960, pero su antigua muralla original
+                    permanece en pie.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/africa/marruecos/marrakech.jpg" alt="Imagen de la ciudad de Marrakech"
+                    title="Ciudad de Marrakech">
+                <h5 id="nombre">Marrakech</h5>
+                <p>Es una antigua ciudad imperial en el oeste de Marruecos y un importante centro económico con
+                    mezquitas, palacios y jardines. La medina es una ciudad medieval amurallada y densamente poblada que
+                    data del período del Imperio Bereber, con pasajes que parecen laberintos y animados zocos (mercados)
+                    que venden cerámicas, joyas y tejidos tradicionales. El minarete morisco de la mezquita Kutubía del
+                    siglo XII es un símbolo de la ciudad visible desde millas de distancia.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/africa/marruecos/rabat.jpg" alt="Imagen de la ciudad de Rabat" title="Ciudad de Rabat">
+                <h5 id="nombre">Rabat</h5>
+                <p>Es la capital de Marruecos, está ubicada en la costa del río Bu Regreg y del océano Atlántico. Es
+                    conocida por sitios emblemáticos que muestran el patrimonio islámico y colonial francés, como el
+                    Kasbah of the Udayas. Este fuerte real de la era Bereberes está rodeado por jardines franceses que
+                    tienen vista al océano. La icónica torre Hassan es un minarete del siglo XII que se alza sobre las
+                    ruinas de una mezquita.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/africa/marruecos/uarzazat.jpg" alt="Imagen de la ciudad de Uarzazat"
+                    title="Ciudad de Uarzazat">
+                <h5 id="nombre">Uarzazat</h5>
+                <p>Es una ciudad al sur del Alto Atlas marroquí famosa por ser la puerta de entrada al desierto del
+                    Sahara. Desde su enorme alcazaba de Taourirt, que alberga un palacio decimonónico, es posible
+                    contemplar el escarpado paisaje de la región, que ha servido de escenario para varias películas. Al
+                    noroeste está la ciudad fortificada de tierra rojiza de Ait ben Hadu. Las rocosas gargantas del
+                    Todra están al noreste. Una carretera serpentea hacia el sureste entre los exuberantes palmerales
+                    del valle del Dra hasta el desierto.
+                </p>
+            </article>
+
+        </div>
+
+
+        <h3 id="sudafrica">Sudáfrica</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/africa/sudafrica/ciudad-del-Cabo.jpg" alt="Imagen de la ciudad 'Ciudad Del Cabo'"
+                    title="Ciudad del Cabo">
+                <h5 id="nombre">Ciudad del Cabo</h5>
+                <p>Es una ciudad portuaria en la costa oeste de Sudáfrica, en una península bajo la imponente Montaña de
+                    la Mesa. Los teleféricos que rotan lentamente ascienden a la cima plana de la montaña, donde se
+                    pueden apreciar una vista panorámica de la ciudad, el ajetreado puerto y los botes que zarpan a isla
+                    Robben, la infame prisión donde estuvo recluido Nelson Mandela y que actualmente es un museo
+                    viviente.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/africa/sudafrica/Johannesburgo.jpg" alt="Imagen de la ciudad Johannesburgo"
+                    title="Johannesburgo">
+                <h5 id="nombre">Johannesburgo</h5>
+                <p>Es la ciudad más grande de Sudáfrica y capital de la provincia de Gauteng, y se inició como un
+                    asentamiento minero de oro en el siglo XIX. En el extenso municipio de Soweto, vivieron alguna vez
+                    Nelson Mandela y Desmond Tutu. La antigua residencia de Mandela es actualmente el museo de la Casa
+                    de Mandela. Otros museos de Soweto que relatan la lucha por terminar con la segregación incluyen el
+                    sombrío Museo del Apartheid y Constitution Hill, el antiguo complejo de una prisión.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/africa/sudafrica/pretoria.jpg" alt="Imagen de la ciudad de Pretoria" title="Pretoria">
+                <h5 id="nombre">Pretoria</h5>
+                <p>Es una ciudad situada en la parte norte de la provincia de Gauteng, en Sudáfrica, dentro de la
+                    Municipalidad Metropolitana de la Ciudad de Tshwane. Es la capital administrativa de Sudáfrica,
+                    junto a las ciudades capitales legislativa de Ciudad del Cabo y la judicial de Bloemfontein.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/africa/sudafrica/puerto-elizabeth.jpg" alt="Imagen del puerto de Puerto Elizabeth"
+                    title="Puerto Elizabeth">
+                <h5 id="nombre">Puerto Elizabeth</h5>
+                <p>Es una ciudad situada en la bahía de Algoa, en la provincia del Cabo Oriental de Sudáfrica. Además
+                    de tener un importante puerto, la ciudad es famosa por sus numerosas playas. La ruta Donkin Heritage
+                    Trail recorre los monumentos victorianos del barrio Old Hill. En los paseos en bote costeros se
+                    pueden avistar ballenas y aves marinas poco frecuentes, mientras que en las reservas de fauna
+                    silvestre fuera del área metropolitana habitan elefantes, rinocerontes y otras especies de caza
+                    mayor.
+                </p>
+            </article>
+
+        </div>
+
+
+        <h3 id="caboVerde">Cabo Verde</h3>
+
+        <div class="contenedor">
+            <article class="contenedor__columna" id="impar">
+                <img src="img/africa/caboVerde/isla-boa-vista.jpg" alt="Imagen de la playa de de la Isla Boa Vista"
+                    title="Playa de la Isla Boa Vista">
+                <h5 id="nombre">Isla Boa Vista</h5>
+                <p>Es una isla de Cabo Verde, frente a la costa de África occidental. Destaca por las dunas y los
+                    paisajes
+                    volcánicos del desierto de Viana, que recuerdan a la superficie lunar. En la isla hay playas de
+                    arena blanca como la de Tortuga y la extensa Santa Mónica. Las tortugas marinas suelen anidar a
+                    orillas de las playas, mientras que las aguas de la costa forman parte de la ruta de las ballenas
+                    jorobadas migratorias. En un islote frente al municipio de Sal Rei, se encuentran los restos de un
+                    fuerte del siglo XIX.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/africa/caboVerde/isla-de-sal.jpg" alt="Imagen de la playa de la Isla de Sal"
+                    title="Playa de la Isla de Sal">
+                <h5 id="nombre">Isla de Sal</h5>
+                <p>Es una isla de Cabo Verde cercana a la costa de África Occidental. Al este, Pedra de Lume es el
+                    emplazamiento de una antigua mina de sal ubicada en el cráter de un volcán extinguido con agua
+                    salada que se considera terapéutica. Al norte de Espargos, ciudad capitalina, el espejismo de Terra
+                    Boa aparece como un lago en el paisaje desértico. Las playas de arena blanca de la isla incluyen el
+                    largo litoral con forma de media luna de Santa Maria, una ciudad concurrida de la costa sur.
+                </p>
+            </article>
+
+            <article class="contenedor__columna" id="impar">
+                <img src="img/africa/caboVerde/sal-rei.jpg" alt="Imagen de la playa de Sal Rei"
+                    title="Playa de Sal Rei">
+                <h5 id="nombre">Sal Rei</h5>
+                <p>Es la capital del municipio de Boavista, está situado en el extremo noroeste de la isla. La ciudad es
+                    llana, sus calles son de piedras y forman una cuadrícula. Dispone de un pequeño hospital que da
+                    servicio a todos los habitantes de la isla.
+                </p>
+            </article>
+
+            <article class="contenedor__columna">
+                <img src="img/africa/caboVerde/tarrafal.jpg" alt="Imagen de la playa de Tarrafal"
+                    title="Playa de Tarrafal">
+                <h5 id="nombre">Tarrafal</h5>
+                <p>Es el municipio más septentrional de la isla de Santiago, en Cabo Verde. La población municipal es de
+                    alrededor de 18.000 residentes, el área es 112,4 km ² y la densidad es de unos 160/km ². Posee
+                    también una importante industria pesquera y agricultura.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p id="tp">© 2022 Fernando González</p>
+        <p id="tp">Parcial de "Taller de lenguajes de marcado y tecnologías web"</p>
+        <p id="tp"><a href="mailto:fernando.gonzalez91@hotmail.com">Contactar</a></p>
+    </footer>
+
+
+</body>
+
+
+</html>
